@@ -1,0 +1,117 @@
+@media (min-width: 768px) {
+  .wrap {
+    max-width: 720px;
+    margin: 0px auto;
+  }
+}
+@media (min-width: 992px) {
+  .wrap {
+    max-width: 960px;
+    margin: 0px auto;
+  }
+}
+@media (min-width: 1200px) {
+  .wrap {
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+}
+
+/* responsive header */
+@media (max-width: 1200px) {
+  .header-right-bottom {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* responsive header */
+  .header-right-top {
+    display: none;
+  }
+  .header-menu {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .header-right-bottom {
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.856);
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .header-right-bottom-item {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .header-right-bottom-item:hover {
+    background-color: #a20606;
+    color: white;
+  }
+  .active .header-right-bottom {
+    width: 20%;
+  }
+  /* responsive product-bar */
+  .item-6 {
+    display: none;
+  }
+  /* responsive info */
+  .info-item,
+  .video,
+  .info-item-slide {
+    width: 100%;
+  }
+  /* responsive product */
+  .product-container-item {
+    width: 45%;
+  }
+  /* responsive project */
+  .project-container {
+    justify-content: center;
+    gap: 20px;
+  }
+  .project-container-item {
+    width: 45%;
+  }
+  /* responsive news */
+  .news-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+  }
+  .news-container-left,
+  .news-container-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* responsive product-bar */
+  .item-5 {
+    display: none;
+  }
+  /* responsive product */
+  .product-container-item {
+    width: 100%;
+  }
+  /* responsive project */
+  .project-container-item {
+    width: 95%;
+  }
+  /* resposive footer */
+  .footer-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}

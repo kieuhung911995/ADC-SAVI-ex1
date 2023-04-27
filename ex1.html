@@ -1,0 +1,868 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAVI PIPE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="./ex1.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body class="body">
+    <!-- header html -->
+    <header>
+      <div class="header">
+        <div class="wrap">
+          <a href="#" class="header-logo"
+            ><img src="image/SaviLogo.png" alt="savi-logo" class="img-contain"
+          /></a>
+          <div id="myNav" class="header-right">
+            <div class="header-right-top">
+              <div class="header-right-top-item">
+                <div class="phone-icon">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <span>Hotline: </span>
+                <span class="header-right-top-phoneNumber bold-text"
+                  >(+84) 24 337 66611</span
+                >
+              </div>
+              <form action="" class="header-right-top-search">
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm"
+                  class="header-right-top-search-input"
+                />
+                <button class="header-right-top-search-glass" type="submit">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+              <div class="header-right-top-item">
+                <div class="header-right-top-country">
+                  <img
+                    src="image/Flag-Vietnam.webp"
+                    alt="country-logo"
+                    class="img-cover header-right-top-country-img"
+                  />
+                </div>
+                <div class="header-right-top-country">
+                  <img
+                    src="image/Flag-United-Kingdom.webp"
+                    alt="country-logo"
+                    class="img-cover header-right-top-country-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <nav class="header-right-bottom">
+              <a class="header-right-bottom-item" href="#">Trang chủ</a>
+              <a class="header-right-bottom-item" href="#">Giới thiệu</a>
+              <a class="header-right-bottom-item" href="#">Sản phẩm</a>
+              <a class="header-right-bottom-item" href="#">Chất lượng</a>
+              <a class="header-right-bottom-item" href="#">Báo giá</a>
+              <a class="header-right-bottom-item" href="#">Dự án</a>
+              <a class="header-right-bottom-item" href="#">Tin tức</a>
+              <a class="header-right-bottom-item" href="#">Liên hệ</a>
+            </nav>
+          </div>
+          <div class="header-menu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- imageSlide html -->
+    <div id="demo" class="imageSlide carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+      </div>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="image/imageSlide1.jpg"
+            alt="imageSlide1"
+            class="d-block img-cover"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="image/imageSlide2.jpg"
+            alt="imageSlide2"
+            class="d-block img-cover"
+          />
+        </div>
+      </div>
+      <!-- Left and right controls/icons -->
+      <button
+        class="imageSlide-arrow prev1"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <button
+        class="imageSlide-arrow next1"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+
+      <div class="imageSlide-title">
+        <div class="imageSlide-title-rectangle"></div>
+        <div class="imageSlide-title-text bold-text">
+          ỐNG THÉP ĐEN SAVI PIPE
+        </div>
+      </div>
+    </div>
+
+    <!-- product-bar html -->
+    <div class="product-bar">
+      <div class="wrap">
+        <nav class="product-bar-container bold-text">
+          <a class="product-bar-item item-1">ỐNG THÉP ĐEN</a>
+          <a class="product-bar-item item-2">THÉP HỘP ĐEN</a>
+          <a class="product-bar-item item-3">ỐNG THÉP CỠ LỚN</a>
+          <a class="product-bar-item item-4">HỘP THÉP ĐEN CỠ LỚN</a>
+          <a class="product-bar-item item-5">ỐNG VÀ HỘP THÉP ĐEN SIÊU DÀY</a>
+          <a class="product-bar-item item-6">ỐNG THÉP MẠ KẼM ASTM A53</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- info html -->
+    <div class="info">
+      <div class="wrap">
+        <div class="info-container">
+          <div class="info-item">
+            <div class="info-item-title bold-text">VỀ SAVI PIPE</div>
+            <div class="info-item-text">
+              Công ty Cổ Phần Quốc Tế Sao Việt tiền thân là Công ty TNHH Quốc Tế
+              Sao Việt được thành lập năm 2004 với ngành nghề kinh doanh chính
+              là kinh doanh xuất nhập khẩu trực tiếp thép không gỉ (Inox) tấm,
+              cuộn, ống công nghiệp (hàn và đúc) và phụ kiện đường ống (Cút, tê,
+              côn thu, mặt bích…). Sau hơn 15 năm xây dựng và phát triển, thương
+              hiệu "INOX SAO VIET" đã trở thành sự lựa chọn tin cậy hàng đầu của
+              nhiều bạn hàng trong nước và nước ngoài.
+            </div>
+            <div class="info-item-button">
+              <span>Xem chi tiết</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="video">
+            <iframe
+              src="https://www.youtube.com/embed/n1XXmaPPCSE"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video-iframe"
+            ></iframe>
+          </div>
+          <div class="info-item-slide">
+            <div class="info-item-slide-container">
+              <img
+                src="image/productSlideImage1.jpg"
+                alt="lineImage"
+                class="info-item-slide-container-img img-cover"
+              />
+            </div>
+            <div class="info-item-slide-arrow prev2">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="info-item-slide-arrow next2">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-item-title bold-text">
+              Dây chuyền sản xuất hiện đại
+            </div>
+
+            <div class="info-item-text">
+              Thép SAVIPIPEl à một trong những công ty có nhiều năm kinh nghiệm
+              sản xuất ống thép( gần 20 năm) tại Việt Nam với các đặc tính nổi
+              bậc: đường hàn đều đẹp, bề mặt sáng bóng, tăng tuổi thọ công
+              trình...
+            </div>
+            <div class="info-item-button">
+              <span>Xem chi tiết</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- certyficate html -->
+    <div class="certyficate">
+      <div class="wrap">
+        <div class="certyficate-info">
+          <div class="certyficate-info-title bold-text margin-global">
+            CHỨNG NHẬN CHẤT LƯỢNG
+          </div>
+          <div class="certyficate-info-container owl-carousel">
+            <div class="certyficate-info-container-item">
+              <div class="certyficate-info-container-item-image">
+                <img
+                  src="image/ISO.jpg"
+                  alt="certyficate-image"
+                  class="img-cover"
+                />
+              </div>
+              <div class="small-text certyficate-info-container-item-text">
+                ISO 9001-2015
+              </div>
+            </div>
+            <div class="certyficate-info-container-item">
+              <div class="certyficate-info-container-item-image">
+                <img
+                  src="image/ISO.jpg"
+                  alt="certyficate-image"
+                  class="img-cover"
+                />
+              </div>
+              <div class="small-text certyficate-info-container-item-text">
+                ISO Vietstar
+              </div>
+            </div>
+            <div class="certyficate-info-container-item">
+              <div class="certyficate-info-container-item-image">
+                <img
+                  src="image/SaviCetyficate.jpg"
+                  alt="certyficate-image"
+                  class="img-cover"
+                />
+              </div>
+              <div class="small-text certyficate-info-container-item-text">
+                Savi - A53
+              </div>
+            </div>
+            <div class="certyficate-info-container-item">
+              <div class="certyficate-info-container-item-image">
+                <img
+                  src="image/SaviCetyficate.jpg"
+                  alt="certyficate-image"
+                  class="img-cover"
+                />
+              </div>
+              <div class="small-text certyficate-info-container-item-text">
+                Savi - A500
+              </div>
+            </div>
+            <div class="certyficate-info-container-item">
+              <div class="certyficate-info-container-item-image">
+                <img
+                  src="image/SaviCetyficate.jpg"
+                  alt="certyficate-image"
+                  class="img-cover"
+                />
+              </div>
+              <div class="small-text certyficate-info-container-item-text">
+                Savi - EN10255
+              </div>
+            </div>
+            <div class="certyficate-info-container-item">
+              <div class="certyficate-info-container-item-image">
+                <img
+                  src="image/SaviCetyficate.jpg"
+                  alt="certyficate-image"
+                  class="img-cover"
+                />
+              </div>
+              <div class="small-text certyficate-info-container-item-text">
+                Savi - JIS G3444
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- product html -->
+    <div class="product margin-global">
+      <div class="wrap">
+        <div class="product-title bold-text">SẢN PHẨM</div>
+        <div class="product-container">
+          <div class="product-container-item">
+            <div class="product-container-item-image">
+              <img
+                src="image/product1.jpg"
+                alt="product-image"
+                class="img-cover"
+              />
+            </div>
+            <div class="product-container-item-detail">
+              <h3>Ống thép đen</h3>
+              <div>
+                Ống thép đen được sản xuất bằng các loại phôi thép cán mỏng,
+                thép ống đem giữ nguyên được màu sắc ban đầu của sản phẩm và
+                thường...
+              </div>
+            </div>
+            <div class="product-container-item-title">
+              <span class="product-container-item-title-text"
+                >Ống thép đen</span
+              >
+              <div class="product-container-item-title-arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product-container-item">
+            <div class="product-container-item-image">
+              <img
+                src="image/product2.jpg"
+                alt="product-image"
+                class="img-cover"
+              />
+            </div>
+            <div class="product-container-item-detail">
+              <h3>Ống thép đen</h3>
+              <div>
+                Ống thép đen được sản xuất bằng các loại phôi thép cán mỏng,
+                thép ống đem giữ nguyên được màu sắc ban đầu của sản phẩm và
+                thường...
+              </div>
+            </div>
+            <div class="product-container-item-title">
+              <span class="product-container-item-title-text"
+                >Ống thép đen</span
+              >
+              <div class="product-container-item-title-arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product-container-item">
+            <div class="product-container-item-image">
+              <img
+                src="image/product3.jpg"
+                alt="product-image"
+                class="img-cover"
+              />
+            </div>
+            <div class="product-container-item-detail">
+              <h3>Ống thép đen</h3>
+              <div>
+                Ống thép đen được sản xuất bằng các loại phôi thép cán mỏng,
+                thép ống đem giữ nguyên được màu sắc ban đầu của sản phẩm và
+                thường...
+              </div>
+            </div>
+            <div class="product-container-item-title">
+              <span class="product-container-item-title-text"
+                >Ống thép đen</span
+              >
+              <div class="product-container-item-title-arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product-container-item">
+            <div class="product-container-item-image">
+              <img
+                src="image/product4.jpg"
+                alt="product-image"
+                class="img-cover"
+              />
+            </div>
+            <div class="product-container-item-detail">
+              <h3>Ống thép đen</h3>
+              <div>
+                Ống thép đen được sản xuất bằng các loại phôi thép cán mỏng,
+                thép ống đem giữ nguyên được màu sắc ban đầu của sản phẩm và
+                thường...
+              </div>
+            </div>
+            <div class="product-container-item-title">
+              <span class="product-container-item-title-text"
+                >Ống thép đen</span
+              >
+              <div class="product-container-item-title-arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product-container-item">
+            <div class="product-container-item-image">
+              <img
+                src="image/product5.jpg"
+                alt="product-image"
+                class="img-cover"
+              />
+            </div>
+            <div class="product-container-item-detail">
+              <h3>Ống thép đen</h3>
+              <div>
+                Ống thép đen được sản xuất bằng các loại phôi thép cán mỏng,
+                thép ống đem giữ nguyên được màu sắc ban đầu của sản phẩm và
+                thường...
+              </div>
+            </div>
+            <div class="product-container-item-title">
+              <span class="product-container-item-title-text"
+                >Ống thép đen</span
+              >
+              <div class="product-container-item-title-arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product-container-item">
+            <div class="product-container-item-image">
+              <img
+                src="image/product6.jpg"
+                alt="product-image"
+                class="img-cover"
+              />
+            </div>
+            <div class="product-container-item-detail">
+              <h3>Ống thép đen</h3>
+              <div>
+                Ống thép đen được sản xuất bằng các loại phôi thép cán mỏng,
+                thép ống đem giữ nguyên được màu sắc ban đầu của sản phẩm và
+                thường...
+              </div>
+            </div>
+            <div class="product-container-item-title">
+              <span class="product-container-item-title-text"
+                >Ống thép đen</span
+              >
+              <div class="product-container-item-title-arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- project html -->
+    <div class="project margin-global">
+      <div class="project-title bold-text">DỰ ÁN TIÊU BIỂU</div>
+      <div class="project-container">
+        <div class="project-container-item">
+          <div class="project-container-item-image">
+            <img
+              src="image/project1.jpg"
+              alt="project-image"
+              class="img-cover"
+            />
+          </div>
+          <div class="project-container-item-detail">
+            <p>TÊN DỰ ÁN CÔNG TRÌNH 01</p>
+            <div>Đường 23 tháng 3, phường Nghĩa Trung, Gia Nghĩa, Đăk Nông</div>
+            <div class="project-container-item-detail-plus">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="project-container-item-title">
+            TÊN DỰ ÁN CÔNG TRÌNH 01
+          </div>
+        </div>
+        <div class="project-container-item">
+          <div class="project-container-item-image">
+            <img
+              src="image/project2.jpg"
+              alt="project-image"
+              class="img-cover"
+            />
+          </div>
+          <div class="project-container-item-detail">
+            <p>TÊN DỰ ÁN CÔNG TRÌNH 01</p>
+            <div>Đường 23 tháng 3, phường Nghĩa Trung, Gia Nghĩa, Đăk Nông</div>
+            <div class="project-container-item-detail-plus">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="project-container-item-title">
+            TÊN DỰ ÁN CÔNG TRÌNH 02
+          </div>
+        </div>
+        <div class="project-container-item">
+          <div class="project-container-item-image">
+            <img
+              src="image/project3.jpg"
+              alt="project-image"
+              class="img-cover"
+            />
+          </div>
+          <div class="project-container-item-detail">
+            <p>TÊN DỰ ÁN CÔNG TRÌNH 01</p>
+            <div>Đường 23 tháng 3, phường Nghĩa Trung, Gia Nghĩa, Đăk Nông</div>
+            <div class="project-container-item-detail-plus">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="project-container-item-title">
+            TÊN DỰ ÁN CÔNG TRÌNH 03
+          </div>
+        </div>
+        <div class="project-container-item">
+          <div class="project-container-item-image">
+            <img
+              src="image/project4.jpg"
+              alt="project-image"
+              class="img-cover"
+            />
+          </div>
+          <div class="project-container-item-detail">
+            <p>TÊN DỰ ÁN CÔNG TRÌNH 01</p>
+            <div>Đường 23 tháng 3, phường Nghĩa Trung, Gia Nghĩa, Đăk Nông</div>
+            <div class="project-container-item-detail-plus">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+            </div>
+          </div>
+          <div class="project-container-item-title">
+            TÊN DỰ ÁN CÔNG TRÌNH 04
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- news html -->
+    <div class="news margin-global">
+      <div class="wrap">
+        <div class="news-title bold-text">TIN TỨC NỔI BẬT</div>
+        <div class="news-container">
+          <div class="news-container-left">
+            <div class="news-container-left-image">
+              <img src="image/new1.jpg" alt="news-image" class="img-contain" />
+            </div>
+            <div class="news-container-left-time">
+              <div class="clock-icon"><i class="fa-regular fa-clock"></i></div>
+              <span>30/03/2023</span>
+            </div>
+            <div class="news-container-title bold-text">
+              Sản lượng tiêu thụ toàn hệ thống tháng 2 đạt trên 215.000 tấn thép
+              các loại
+            </div>
+            <div>
+              Thị trường thép 2 tháng đầu năm 2023 trầm lắng, nhu cầu tiêu thụ
+              thép của nền kinh tế thấp, diễn biến này hoàn toàn trái ngược với
+              nhu cầu sôi động của thị trường cùng kỳ năm 2022.
+            </div>
+          </div>
+          <div class="news-container-right">
+            <div class="news-container-right-item">
+              <div class="news-container-right-item-image">
+                <img src="image/new2.jpg" alt="news-image" class="img-cover" />
+              </div>
+              <div class="news-container-right-item-text">
+                <div class="news-container-left-time">
+                  <div class="clock-icon">
+                    <i class="fa-regular fa-clock"></i>
+                  </div>
+                  <span>30/03/2023</span>
+                </div>
+                <div class="news-container-title bold-text">
+                  Chúng tôi luôn đặt chất lượng sản phẩm lên hàng đầu
+                </div>
+                <div class="news-container-right-item-text-p small-text">
+                  Theo thị trường, hầu hết các nhà sản xuất thép không gỉ ở Đài
+                  Loan và Trung Quốc đã quyết định tăng giá thép
+                </div>
+              </div>
+            </div>
+            <div class="news-container-right-item">
+              <div class="news-container-right-item-image">
+                <img src="image/new3.jpg" alt="news-image" class="img-cover" />
+              </div>
+              <div class="news-container-right-item-text">
+                <div class="news-container-left-time">
+                  <div class="clock-icon">
+                    <i class="fa-regular fa-clock"></i>
+                  </div>
+                  <span>30/03/2023</span>
+                </div>
+                <div class="news-container-title bold-text">
+                  Giá thép không gỉ bị đẩy bởi giá niken mạnh
+                </div>
+                <div class="news-container-right-item-text-p small-text">
+                  Theo thị trường, hầu hết các nhà sản xuất thép không gỉ ở Đài
+                  Loan và Trung Quốc đã quyết định tăng giá thép
+                </div>
+              </div>
+            </div>
+            <div class="news-container-right-item">
+              <div class="news-container-right-item-image">
+                <img
+                  src="image/new4.jpg"
+                  alt="news-image"
+                  class="img-contain"
+                />
+              </div>
+              <div class="news-container-right-item-text">
+                <div class="news-container-left-time">
+                  <div class="clock-icon">
+                    <i class="fa-regular fa-clock"></i>
+                  </div>
+                  <span>30/03/2023</span>
+                </div>
+                <div class="news-container-title bold-text">
+                  6 lý do khiến giá thép châu Âu tăng trong tháng 9
+                </div>
+                <div class="news-container-right-item-text-p small-text">
+                  Thứ nhất, các doanh nghiệp châu Âu không thể chịu đựng được
+                  tình hình tài chính cực kỳ yếu kém như vậy
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer html -->
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-contact">
+          <div class="footer-contact-item">
+            <div class="footer-contact-item-p bold-text">HÀ NỘI</div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-location.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text"
+                >Cụm CN Hà Bình Phương, xã Hà Hồi, huyện Thường Tín, Hà
+                Nội</span
+              >
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-phone.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text"
+                >(+84) 24 33766611/12/13/14</span
+              >
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-printer.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text">(+84) 24 33766615</span>
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-email.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text"
+                >nguyentinh@vinastar.com.vn</span
+              >
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-internet.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text">www.vinastar.com.vn</span>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-item-p bold-text">HỒ CHÍ MINH</div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-location.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text"
+                >C6-5, đường N8, KCN Tân Phú Trung, huyện Củ Chi, Hồ Chí
+                Minh</span
+              >
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-phone.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text">(+84) 28 37905 999</span>
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-printer.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text">(+84) 28 39705 666</span>
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-email.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text"
+                >kinhdoanhsg@vinastar.com.vn</span
+              >
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-item-p bold-text">HƯNG YÊN</div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-location.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text"
+                >Thôn Thượng Bùi, xã Trung Hòa, huyện Yên Mỹ, tỉnh Hưng
+                Yên</span
+              >
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-phone.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text"
+                >(+84) 221 3571111/10/12</span
+              >
+            </div>
+            <div class="footer-contact-item-detail">
+              <div class="footer-contact-item-detail-icon">
+                <img
+                  src="icons/icon-printer.png"
+                  alt="location-icon"
+                  class="img-contain"
+                />
+              </div>
+              <span class="small-text contact-text">(+84) 221 3971555</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-connect">
+        <div class="wrap">
+          <div class="footer-connect-container">
+            <div class="footer-connect-copyright">
+              <span>Copyright </span>
+              <span>&copy </span>
+              <span>2023 SAVIPIPE. All Rights Reserved.</span>
+            </div>
+            <div class="footer-connect-social">
+              <span>Kết nối với chúng tôi: </span>
+              <div class="footer-connect-social-symbol">
+                <img
+                  src="icons/icon-facebook.png"
+                  alt="facebook-icon"
+                  class="img-cover"
+                />
+              </div>
+              <div class="footer-connect-social-symbol">
+                <img
+                  src="icons/icon-instagram.png"
+                  alt="facebook-icon"
+                  class="img-cover"
+                />
+              </div>
+              <div class="footer-connect-social-symbol">
+                <img
+                  src="icons/icon-youtube.png"
+                  alt="facebook-icon"
+                  class="img-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-fixContact">
+        <div class="footer-fixContact-symbol">
+          <img
+            src="icons/icon-phone-call.png"
+            alt="contact-image"
+            class="img-cover"
+          />
+        </div>
+        <div class="footer-fixContact-symbol">
+          <img
+            src="icons/icon-message.png"
+            alt="contact-image"
+            class="img-cover"
+          />
+        </div>
+        <div class="footer-fixContact-symbol">
+          <img
+            src="icons/icon-zalo.png"
+            alt="contact-image"
+            class="img-cover"
+          />
+        </div>
+        <div class="footer-fixContact-symbol arrow-up">
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a30bab511d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./ex1.js"></script>
+  </body>
+</html>
